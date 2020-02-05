@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <dirent.h>
-#include <sys/types.h>
+
 //#include <sys/dirent.h>
 #include <unistd.h>
 
@@ -24,7 +24,7 @@ struct sline {
 	char *user;
 	char *group;
 	int size;
-	//char *datetime;
+	char *datetime;
 	char *file;
 };
 
@@ -93,7 +93,7 @@ int main(int argc, char* argv[])
 			printf("%*s ", luser+1, lines[i].user);
 			printf("%*s ", lgroup+1, lines[i].group);
 			printf("%*d ", lsize+1, lines[i].size);
-			//printf("%s ", lines[i].datetime);
+			printf("%s ", lines[i].datetime);
 			printf("%s \n", lines[i].file);
 		}
 		printf("\n");
@@ -211,7 +211,9 @@ int create_stat_info(struct dirent *entry, struct sline *lentry, char const *roo
 	line.file = sfile;
 	line.link = info.st_nlink;
 	line.size = info.st_size;
-	//line.datetime = stime;
+	struct stat attr;
+	stat(line.file,&attr);
+	line.datetime =ctime(&attr.st_mtime);
 
 	*lentry = line;
 
