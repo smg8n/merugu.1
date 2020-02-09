@@ -1,15 +1,12 @@
 CC = gcc
-CFLAGS = -I. -g
-TARGET = dt
-OBJS = main.o Arguments.o Print.o
-.SUFFIXES: .c .o
+CFLAGS = -g -w
+TARGET = bt
+OBJS = main.o 
 
 $(TARGET): $(OBJS)
-	$(CC) $(CFLAGS) -o $@ $(OBJS)
-
-
-.c.o:
-	$(CC) $(CFLAGS) -c $<
+	$(CC) -o $(TARGET) $(OBJS)
+main.o: main.c
+	$(CC) $(CFLAGS) -c main.c
 
 clean:
 	rm -f *.o $(TARGET)
