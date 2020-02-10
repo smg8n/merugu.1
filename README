@@ -1,0 +1,78 @@
+INTRODUCTION
+------------
+
+The System Calls and Library Functions module dis
+plays a traversed directory in breadth-first orde
+r. The directory is specified by user, and defaul
+ts to user's Current Working Directory (CWD). The
+program itself is invoked using the linux Command
+Line Interface (CLI), by which a user may specify
+several unique options each of which performs its
+intended function on the traversed directory, spe
+cified by CLI input.
+
+ * For a full description of the module, visit th
+   e project page of CS4760: Operating Systems at:
+   http://www.cs.umsl.edu/~sanjiv/classes/cs4760/
+
+ * To submit bug reports and feature suggestions o
+   r track changes visit:
+   https://github.com/
+
+
+REQUIREMENTS
+------------
+
+This module requires the following:
+
+ * Hoare Linux (http://www.umsl.edu/technology/tsc/)
+ * UMSL ID (https://www.umsl.edu/degrees/index.html)
+
+
+INSTALLATION
+------------
+
+ * Install as you would normally install a distrib
+   uted C module. To compile and execute, you must
+   have the build-essential packages properly inst
+   alled on your system. 
+
+
+COMPILATION
+-----------
+
+To compile, open a new CLI window, change the the
+directory nesting your module. Type:
+
+ * make
+
+
+EXECUTION
+---------
+																								 
+Find the executable named bt, located inside that
+directory in which you compiled the module. After
+you have found bt, invoke the program with:
+
+ * bt [-h] [-L -d -g -i -p -s -t -u | -l] [dirname]
+ 
+ * The options are to be interpreted as follows:
+ 
+  * h Print a help message and exit.											
+  * L Follow symbolic links, if any. Default will
+    be to not follow symbolic links.
+  * t Print information on file type.
+  * p Print permission bits as rwxrwxrwx.												
+  * i Print the number of links to file in the inode table.
+  * u Print the UID associated with the file.
+  * g Print the GID associated with the file.
+  * s Print the size of file in bytes.
+  * d Show the time of last modification.
+  * l This option will be used to print information 
+    on the file as if the options tpiugs are all specified
+
+
+MAINTAINERS
+-----------
+
+Current maintainers: https://github.com/
