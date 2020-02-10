@@ -1,0 +1,159 @@
+commit 105d1298aa9f18ba1d53f1dcc8869c642860f215
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Sun Feb 9 20:34:46 2020 -0600
+
+    Adding README file
+
+commit aa0d1e7dc1144562a602a96a14cf40a601f12e49
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Sun Feb 9 20:24:18 2020 -0600
+
+    Adding makefile
+
+commit ce64e992fb89fdea5d142d851fbc868af6c6b51c
+Merge: a98334e 58b7bb3
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Sun Feb 9 00:19:11 2020 -0600
+
+    Merge branch 'master' of https://github.com/smg8n/merugu.1
+    
+    getting errors
+
+commit 58b7bb3c21c0c19e802f7899c7b3a2823a51564f
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sun Feb 9 00:16:06 2020 -0600
+
+    Delete LICENSE
+
+commit 784a0b2f8859937c45c8c6fa42a016dc23021307
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sun Feb 9 00:15:38 2020 -0600
+
+    Delete makefile
+
+commit cd8802d7cf8f4d5d3d366be21300132236cea3ac
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sun Feb 9 00:15:09 2020 -0600
+
+    Delete README.md
+
+commit a98334e38177ff3b4846914650bb1255b82c72d8
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Sun Feb 9 00:11:51 2020 -0600
+
+    Adding main.c file
+
+commit b5a00404c30d6111d6380e4d82f8b670265ed334
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 23:39:19 2020 -0600
+
+    Modified makefile
+
+commit ab17c4b791882af9b60038fdea35dad6cab7098c
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 23:37:43 2020 -0600
+
+    Adding bt.c to main.c
+
+commit 9d689214931d2d90b22139c74fabedcb7edfd1d0
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 22:59:25 2020 -0600
+
+    Combining main.c to bt.c
+
+commit a5233b9fb8c7a0a0fc465186399e3fee33b1e669
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 22:58:51 2020 -0600
+
+    Combining Queue.c to bt.c
+
+commit 943b35c038be07bf580888e18ce078c07f09abd9
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 22:58:16 2020 -0600
+
+    Combining Print.h to bt.c
+
+commit 2d5e90eca80f18ee355398e13aa09bebe27a946f
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 22:57:37 2020 -0600
+
+    Combining Print.c to bt.c
+
+commit 58f5b5d6391516c007334a53e10753ea60c9a96a
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 22:51:41 2020 -0600
+
+    Combining Arguments.h to  bt.c
+
+commit 0fa709d3beb92346251cb1281023ac4af38985f4
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sat Feb 8 12:39:54 2020 -0600
+
+    Combined Arguments.h to main.c
+
+commit 68fad7f8e56f859c4866a928bd63a3fbe92e3f7c
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Fri Feb 7 11:40:15 2020 -0600
+
+    Modification in bt.c
+
+commit 820099a2436b0d6fbe02f1767ebc7fc812c02156
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Wed Feb 5 10:52:40 2020 -0600
+
+    Adding bt.c file
+
+commit 72ea3f388d29d6cb74727eba5e81659abaa3e2b1
+Merge: 10b59d7 a52c55f
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Wed Feb 5 10:50:07 2020 -0600
+
+    Merge branch 'master' of https://github.com/smg8n/proj1
+
+commit a52c55fcc2dd8edcdb53693f1289141589949882
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Wed Feb 5 08:45:12 2020 -0600
+
+    Modification in Queue file
+
+commit 425757ca2688e371f4501ee0b9606d1f347e46b4
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Tue Feb 4 18:12:25 2020 -0600
+
+    Delete p2.c
+
+commit 10b59d76e994a5f33d30ee5410a71cbdfc5e8243
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Tue Feb 4 10:23:01 2020 -0600
+
+    Modifications in files
+
+commit 4cfe4a6c453b763eb0d60b266a7fb7ec38a0f28c
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Tue Feb 4 09:04:44 2020 -0600
+
+    Adding Queue file
+
+commit cbac190c9d329ebe539b37b6f7c0a615dbb142bd
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Mon Feb 3 20:37:56 2020 -0600
+
+    Added a new file
+
+commit 3221aaf483aea61f8689ba167eaea47972e727a1
+Author: smg8n <smg8n@mail.umsl.edu>
+Date:   Mon Feb 3 20:21:34 2020 -0600
+
+    Modified Readme file
+
+commit 4f686e9ea70edca73dcb2ab37d6a72b5a03363fc
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Mon Feb 3 10:59:43 2020 -0600
+
+    Add files via upload
+
+commit 0b6a10b76801fbae12002a8f7bff1ef738a910c3
+Author: smg8n <60581192+smg8n@users.noreply.github.com>
+Date:   Sun Feb 2 12:46:53 2020 -0600
+
+    Initial commit
